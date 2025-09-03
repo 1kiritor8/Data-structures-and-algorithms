@@ -4,6 +4,7 @@ using namespace std;
 //  const int N =;
 void solve()
 {
+    cout << "Hello World!!!" << endl;
 }
 signed main()
 {
