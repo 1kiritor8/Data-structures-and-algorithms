@@ -10,7 +10,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"d:/Program/VScode/Algorithm/test.exe"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "d:/mingw64/bin"
