@@ -1,14 +1,23 @@
-#include <bits/stdc++.h>
-using namespace std;
-// #define int long long
-//  const int N =;
-void solve()
-{
-    cout << "Hello World!!!" << endl;
-}
-signed main()
-{
-    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-    solve();
+#include<iostream>
+#include<cstdio>
+
+int main() {
+    int x = 0;
+    int a = 0;
+    int y = 0;
+    int b = 0;
+    float z = 0.0;
+
+    std::cin >> x >> a >> y >> b;
+    if(x > y) {
+        if(a < b) {
+            if((a*x) < (b*y)) {
+                z=75.00;
+            }
+        }
+    }
+
+    printf("%.2lf\n",z);
+
     return 0;
 }
